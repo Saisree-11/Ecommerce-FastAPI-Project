@@ -11,7 +11,6 @@ app = FastAPI(
     version="1.0"
 )
 
-
 def get_db():
     db = SessionLocal()
     try:
