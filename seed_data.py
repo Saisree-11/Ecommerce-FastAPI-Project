@@ -1,11 +1,8 @@
 
 from database import SessionLocal, engine, Base
 import models
-
 Base.metadata.create_all(bind=engine)
-
 db = SessionLocal()
-
 products = [
     # Clothes
     {"category": "Clothes", "brand": "Levis", "product_name": "Slim Fit Denim Jeans", "price": 2499.00, "stock": 40},
