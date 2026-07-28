@@ -7,7 +7,7 @@ A FastAPI-based E-Commerce Product Management API with MySQL, SQLAlchemy, CRUD o
 
 The **FastAPI E-Commerce Product Management API** is a RESTful backend application developed using **FastAPI**, **SQLAlchemy (Object Relational Mapper - ORM)**, **Pydantic**, and **MySQL**. This project demonstrates complete **CRUD (Create, Read, Update, Delete)** operations for managing products in an e-commerce system.
 
-The application enables users to create, retrieve, update, and delete product information while securely storing data in a MySQL database. It also provides category-based product retrieval and interactive API documentation using FastAPI's built-in **Swagger UI** and **ReDoc**.
+The application enables users to create, retrieve, update, and delete product information while securely storing data in a MySQL database. It also provides category-based product retrieval and interactive API documentation using FastAPI's built-in methods.
 
 This project was developed as a hands-on learning project to strengthen backend development skills, database integration, REST API development, API testing, database management, and version control using **Git** and **GitHub**.
 
