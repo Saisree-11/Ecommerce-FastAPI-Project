@@ -9,7 +9,6 @@ class ProductCreate(BaseModel):
 
 class ProductResponse(ProductCreate):
     id: int
-
     model_config = {
         "from_attributes": True
     }
