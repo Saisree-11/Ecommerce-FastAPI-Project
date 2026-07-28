@@ -2,7 +2,6 @@ from sqlalchemy.orm import Session
 import models
 import schemas
 
-
 # Create Product
 def create_product(db: Session, product: schemas.ProductCreate):
     db_product = models.Product(**product.model_dump())
